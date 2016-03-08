@@ -3,7 +3,7 @@
 The data set described below is obtained by applying the script "run_analysis.R" (See README.md) to the data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the research project that yielded the initial data is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-### Variable Description:
+### Variable Description (total of 68 variables):
 
 Activity        (fctr):  The name of one of the six possible activities:
 
@@ -17,8 +17,8 @@ Activity        (fctr):  The name of one of the six possible activities:
 Subject         (int):  An index between 1 and 30 associated with one of 30 participants
 
 ##### The following 66 variables are associated with the average values of measurements that are related to one of the following two physical values:
-##### Acceleration - all variables that have "Acc" in their names. Units: standard gravity units 'g'
-##### Angular velocity vector measured by the gyroscope for each window sample -  - all variables that have "Gyro" in their names. Units: radians/second
+* ##### Acceleration - all variables that have "Acc" in their names. Units: standard gravity units 'g'
+* ##### Angular velocity vector measured by the gyroscope for each window sample -  - all variables that have "Gyro" in their names. Units: radians/second
 ##### NOTE: All features below are normalized and bounded within [-1,1].
 
 tBodyAccmeanX   (dbl) 
