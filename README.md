@@ -73,3 +73,4 @@ b) Save the result in the new data frame 'xy_all_means_stds'
 * Apply the dplyr function 'summarise_each' and store the result in 'var_averages'
 
 ### Save the final data set in a txt-file "Final_Tidy_Data_Set.txt"
+* The content and structure of the final tidy data set saved in "Final_Tidy_Data_Set.txt" is described in the file "CodeBook.md"
