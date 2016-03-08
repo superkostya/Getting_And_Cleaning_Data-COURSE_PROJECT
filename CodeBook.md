@@ -1,5 +1,11 @@
-Activity        (fctr)  
-A name of one of the six possible activities:
+## The Codebook for the variables in the data set "Final_Tidy_Data_Set.txt"
+
+The data set described below is obtained by applying the script "run_analysis.R" (See README.md) to the data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the research project that yielded the initial data is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+### Variable Description:
+
+Activity        (fctr):  The name of one of the six possible activities:
 
 * WALKING
 * WALKING_UPSTAIRS
@@ -8,12 +14,11 @@ A name of one of the six possible activities:
 * STANDING
 * LAYING
 
-Subject         (int)  
-An index between 1 and 30 associated with one of 30 participants
+Subject         (int):  An index between 1 and 30 associated with one of 30 participants
 
 ##### The following 66 variables are associated with the average values of measurements that are related to one of the following two physical values:
-##### Acc: Acceleration. Units: standard gravity units 'g'
-##### Gyro: Angular velocity vector measured by the gyroscope for each window sample. Units: radians/second
+##### Acceleration - all variables that have "Acc" in their names. Units: standard gravity units 'g'
+##### Angular velocity vector measured by the gyroscope for each window sample -  - all variables that have "Gyro" in their names. Units: radians/second
 ##### NOTE: All features below are normalized and bounded within [-1,1].
 
 tBodyAccmeanX   (dbl) 

@@ -20,7 +20,7 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Summary
+## Summary of the data analysis (Also see the script "run_analysis.R")
 
 When the the data from the file 'UCI HAR Dataset.zip' is unzipped, all data files can be found in the directory 'UCI HAR Dataset'. Throughout the following discussion, we will assume that the script 'run_analysis.R' is stored in that same directory.
 
