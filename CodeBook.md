@@ -19,6 +19,7 @@ Subject         (int):  An index between 1 and 30 associated with one of 30 part
 ##### The following 66 variables are associated with the average values of measurements that are related to one of the following two physical values:
 * Acceleration - all variables that have "Acc" in their names. Units: standard gravity units 'g'
 * Angular velocity vector measured by the gyroscope for each window sample -  - all variables that have "Gyro" in their names. Units: radians/second
+
 ##### NOTE: All features below are normalized and bounded within [-1,1].
 
 tBodyAccmeanX   (dbl) 
