@@ -1,7 +1,12 @@
 ## The Codebook for the variables in the data set "Final_Tidy_Data_Set.txt"
 
-The data set described below is obtained by applying the script "run_analysis.R" (See README.md) to the data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the research project that yielded the initial data is available at the site where the data was obtained:
+The data set described below is obtained by applying the script "run_analysis.R" (See README.md) to the data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+
+A full description of the research project that yielded the initial data is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The initial data set can be downloaded here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### Variable Description (total of 68 variables):
 
